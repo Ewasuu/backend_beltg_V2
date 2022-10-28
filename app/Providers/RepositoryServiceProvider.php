@@ -23,7 +23,7 @@ class RepositoryServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->bind(\App\Repositories\ProductOCRepository::class, \App\Repositories\ProductOCRepositoryEloquent::class);
+
         //:end-bindings:
     }
 }
