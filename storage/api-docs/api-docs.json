@@ -1,0 +1,17 @@
+{
+    "openapi": "3.0.0",
+    "paths": {
+        "/api/od/save": {
+            "post": {
+                "tags": [
+                    "od"
+                ],
+                "summary": "Crea una o varias OC.",
+                "operationId": "store",
+                "requestBody": {
+                    "mediaType": "application/json"
+                }
+            }
+        }
+    }
+}

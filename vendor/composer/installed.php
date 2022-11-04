@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'redq/marvel',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '494f2d0ec9cb7b5a9f3ce9a25646f445d7c085d4',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -133,6 +133,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'darkaonline/l5-swagger' => array(
+            'pretty_version' => '8.4.1',
+            'version' => '8.4.1.0',
+            'reference' => '0b1c3f5aca80fc710877bf7fdbab6d28d9b54f4c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../darkaonline/l5-swagger',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'davedevelopment/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -155,7 +164,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/annotations',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'doctrine/cache' => array(
             'pretty_version' => '2.2.0',
@@ -1427,9 +1436,9 @@
             'dev_requirement' => false,
         ),
         'redq/marvel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '494f2d0ec9cb7b5a9f3ce9a25646f445d7c085d4',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1683,6 +1692,15 @@
             'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'swagger-api/swagger-ui' => array(
+            'pretty_version' => 'v4.15.2',
+            'version' => '4.15.2.0',
+            'reference' => '6ce623329e27e83995bb80797097345a07529785',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../swagger-api/swagger-ui',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'swiftmailer/swiftmailer' => array(
             'pretty_version' => 'v6.3.0',
@@ -1984,6 +2002,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'symfony/yaml' => array(
+            'pretty_version' => 'v5.4.14',
+            'version' => '5.4.14.0',
+            'reference' => 'e83fe9a72011f07c662da46a05603d66deeeb487',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/yaml',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'thecodingmachine/safe' => array(
             'pretty_version' => 'v1.3.3',
             'version' => '1.3.3.0',
@@ -2061,6 +2088,15 @@
             'replaced' => array(
                 0 => '^3.4.1',
             ),
+        ),
+        'zircote/swagger-php' => array(
+            'pretty_version' => '4.4.10',
+            'version' => '4.4.10.0',
+            'reference' => '795be27b3b3bacc8353350cacc663ac5cbcd05cc',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../zircote/swagger-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
     ),
 );
